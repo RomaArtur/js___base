@@ -1,7 +1,7 @@
 const notas = [10, 8.5, 5, 6.5, 8, 7.5]; 
 
-for (let indice = 0; indice < notas.length; indice++) {
-    console.log(indice, notas[indice])
+for (let i = 0; i < notas.length; i++) { // (inicialização; condição; incremento)
+    console.log(i, notas[i])
 }
 
 //Outro exemplo
@@ -9,7 +9,7 @@ for (let indice = 0; indice < notas.length; indice++) {
 const numeros = [100, 200, 300, 400, 500, 600];
  
 for (let i = numeros.length - 1; i >= 0; i--) {
-  console.log(numeros[i]);
+  console.log(i, numeros[i]);
 }
 
 //For para repetir instrução e criar array

@@ -12,4 +12,4 @@ console.log(estudanteReprovou(10, 2));
 const exibeNome = (nome) => nome; //forma suprimida 
 console.log(exibeNome('Caroline'));
 
-
+        

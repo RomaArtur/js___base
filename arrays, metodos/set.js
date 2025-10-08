@@ -1,7 +1,7 @@
 const nomes = ["Ana", "Clara", "Maria", "Maria", "João", "João", "João"];
 
-//Conjunto
-//Não tem acesso aos métodos de array
+// Cria um conjunto a partir do array
+// Não tem acesso aos métodos de array
 const conjuntoNomesAtualizados = new Set(nomes);
 
 console.log(conjuntoNomesAtualizados);
@@ -11,9 +11,8 @@ const listaNomesAtualizados = [...conjuntoNomesAtualizados];
 
 console.log(listaNomesAtualizados);
 
-//Facilitando processo
+// Facilitando processo
 const listaSimplificadaNomesAtualizados = [...new Set(nomes)];
 
-console.log(listaSimplificadaNomesAtualizados)
-
+console.log(listaSimplificadaNomesAtualizados);
 

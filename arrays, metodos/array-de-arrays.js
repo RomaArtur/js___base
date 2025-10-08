@@ -7,5 +7,3 @@ console.log(lista);
 console.log(
   `A aluna da posição 1 da lista é: ${lista[0][1]}. A nota dessa aluna é ${lista[1][1]}.`
 );
-
-

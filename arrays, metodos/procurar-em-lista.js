@@ -3,9 +3,9 @@ const medias = [10, 8, 7.5, 9];
 
 const lista = [alunos, medias];
 
-function exibeNomeENota(alunos) {
-  if (lista[0].includes(alunos)) {
-    const indice = lista[0].indexOf(alunos)
+function exibeNomeENota(aluno) {
+  if (lista[0].includes(aluno)) {
+    const indice = lista[0].indexOf(aluno)
     const mediaAluno = lista[1][indice];
     console.log(`${alunos} tem a média ${mediaAluno}`);
   } else {

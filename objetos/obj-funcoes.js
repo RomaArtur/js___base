@@ -8,7 +8,7 @@ const estudante = {
   media: 7.5,
   //Não pode usar Arrow Function dentro de objetos. 
   estaAprovado: function (mediaBase) {
-    return this.media >= mediaBase ? true : false;
+    return this.media >= mediaBase ? false : true;
   },
 };
 

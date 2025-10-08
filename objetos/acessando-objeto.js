@@ -15,4 +15,7 @@ function exibeInfoEstudante(objEstudante, infoEstudante) {
 
 console.log(exibeInfoEstudante(estudante, "nome"));
 console.log(exibeInfoEstudante(estudante, "cpf"));
+console.log(exibeInfoEstudante(estudante, "idade"));
+console.log(exibeInfoEstudante(estudante, "email"));
+console.log(exibeInfoEstudante(estudante, "turma"));
 

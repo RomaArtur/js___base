@@ -7,8 +7,8 @@ const tamanhoNome = alunos.filter((aluno) => {
 
 console.log(tamanhoNome);
 
-const reprovados = alunos.filter((aluno, índice) => {
-    return medias[índice] < 7;
+const reprovados = alunos.filter((aluno, indice) => {
+    return medias[indice] < 7;
 })
 
 console.log(reprovados);

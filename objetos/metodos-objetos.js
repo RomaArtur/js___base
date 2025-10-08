@@ -23,7 +23,7 @@ console.log(chavesObjeto);
 const valoresObjeto = Object.values(estudante);
 console.log(valoresObjeto);
 
-if (chavesObjeto.includes('endereceos')) {
+if (chavesObjeto.includes('enderecos')) {
     console.log('O objeto estudante possui a chave enderecos');
 } else {
     console.log('O objeto estudante não possui a chave enderecos');
