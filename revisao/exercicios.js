@@ -81,5 +81,49 @@ const acesso = (idade >= 18)
 ? 'Acesso Permitido' 
 : 'Acesso Negado';
 
+// Horário de funcionamento de loja 
+// Durante a semana abre 9h - 18h
+// sab e dom abre 10h - 14h
+
+const diaSemana = 6;
+
+switch (diaSemana) {
+  case "1":
+    console.log("Aberta das 9h às 18h");
+    break;
+  case "2":
+    console.log("Aberta das 9h às 18h");
+    break;
+  case "3":
+    console.log("Aberta das 9h às 18h");
+    break;
+  case "4":
+    console.log("Aberta das 9h às 18h");
+    break;
+  case "5":
+    console.log("Aberta das 9h às 18h");
+    break;
+  case "6":
+    console.log("Aberta das 10h às 14h");
+    break;
+  case "7":
+    console.log("Aberta das 10h às 14h");
+    break;
+  default: 
+    console.log("Não encontrado")
+};
+
+// Outra opção
+
+diaSemana;
+
+if (diaSemana === 6 || diaSemana === 7) {
+  console.log("Aberta das 10h às 14h");
+} else {
+  console.log("Aberta das 9h às 18h");
+};
+
+
+
 
 
